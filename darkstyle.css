@@ -20,6 +20,8 @@ picture {
 }
 
 #lamp {
+    background-color: transparent;
+    border: none;
     position: absolute;
     margin: auto;
     right: 5px;
