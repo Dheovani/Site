@@ -1,11 +1,15 @@
 @charset "UTF-8";
 
 body {
+    margin: auto;
     text-align: center;
     background-image: linear-gradient(to right, #4CB7FF, #C19CFF);
     color: black;
-    font: 12;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#me-icon {
+    margin-top: 10px;
 }
 
 article {
@@ -19,7 +23,7 @@ picture {
     margin: 10px;
 }
 
-#lamp {
+#button {
     background-color: transparent;
     border: none;
     position: absolute;

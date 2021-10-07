@@ -1,11 +1,15 @@
 @charset "UTF-8";
 
 body {
+    margin: auto;
     text-align: center;
     background-image: linear-gradient(to right, #000000, #403D42);
     color: white;
-    font: 12;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#me-icon {
+    margin-top: 10px;
 }
 
 article {
