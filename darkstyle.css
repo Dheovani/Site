@@ -23,9 +23,11 @@ picture {
     margin: 10px;
 }
 
-#lamp {
+#button {
     background-color: transparent;
     border: none;
+    width: 32px;
+    height: 32px;
     position: absolute;
     margin: auto;
     right: 5px;
