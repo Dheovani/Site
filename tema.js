@@ -6,6 +6,8 @@ const darkStyle = "file:///C:/Users/PICHAU/Documents/GitHub/Site/darkstyle.css";
 function darkIcon() {
     document.getElementById("me-icon").src = "file:///C:/Users/PICHAU/Documents/GitHub/Site/icons/me-icon.jpeg";
 
+    document.getElementById("lamp").src = "file:///C:/Users/PICHAU/Documents/GitHub/Site/icons/lamp-dark-off.png";
+
     document.getElementById("github").src = "file:///C:/Users/PICHAU/Documents/GitHub/Site/iconesredesocial/github-white.png";
 
     document.getElementById("telegram").src = "file:///C:/Users/PICHAU/Documents/GitHub/Site/iconesredesocial/telegram-white.png";
@@ -17,6 +19,8 @@ function darkIcon() {
 
 function lightIcon() {
     document.getElementById("me-icon").src = "file:///C:/Users/PICHAU/Documents/GitHub/Site/icons/me-glasses-icon.jpeg";
+
+    document.getElementById("lamp").src = "file:///C:/Users/PICHAU/Documents/GitHub/Site/icons/lamp.png";
 
     document.getElementById("github").src = "file:///C:/Users/PICHAU/Documents/GitHub/Site/iconesredesocial/github.png";
 
