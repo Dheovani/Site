@@ -1,21 +1,30 @@
 const docTheme = document.getElementById("theme");
-const meIcon = document.getElementById("me-icon");
-const lamp = document.getElementById("lamp");
-const gitHub = document.getElementById("github");
-const telegram = document.getElementById("telegram");
-const instagram = document.getElementById("instagram");
-const linkedin = document.getElementById("linkedin");
-
 const lightStyle = "file:///C:/Users/PICHAU/Documents/GitHub/Site/lightstyle.css";
 const darkStyle = "file:///C:/Users/PICHAU/Documents/GitHub/Site/darkstyle.css";
 // Variáveis para salvar o path para os temas lightstyle e darkstyle
 
 function darkIcon() {
-    meIcon.src = "file:///C:/Users/PICHAU/Documents/GitHub/Site/icons/me-icon.jpeg";
+    document.getElementById("me-icon").src = "file:///C:/Users/PICHAU/Documents/GitHub/Site/icons/me-icon.jpeg";
+
+    document.getElementById("github").src = "file:///C:/Users/PICHAU/Documents/GitHub/Site/iconesredesocial/github-white.png";
+
+    document.getElementById("telegram").src = "file:///C:/Users/PICHAU/Documents/GitHub/Site/iconesredesocial/telegram-white.png";
+
+    document.getElementById("instagram").src = "file:///C:/Users/PICHAU/Documents/GitHub/Site/iconesredesocial/instagram-white.png";
+
+    document.getElementById("linkedin").src = "file:///C:/Users/PICHAU/Documents/GitHub/Site/iconesredesocial/linkedin-white.png";
 }
 
 function lightIcon() {
-    meIcon.src = "file:///C:/Users/PICHAU/Documents/GitHub/Site/icons/me-glasses-icon.jpeg";
+    document.getElementById("me-icon").src = "file:///C:/Users/PICHAU/Documents/GitHub/Site/icons/me-glasses-icon.jpeg";
+
+    document.getElementById("github").src = "file:///C:/Users/PICHAU/Documents/GitHub/Site/iconesredesocial/github.png";
+
+    document.getElementById("telegram").src = "file:///C:/Users/PICHAU/Documents/GitHub/Site/iconesredesocial/telegram.png";
+
+    document.getElementById("instagram").src = "file:///C:/Users/PICHAU/Documents/GitHub/Site/iconesredesocial/instagram.png";
+
+    document.getElementById("linkedin").src = "file:///C:/Users/PICHAU/Documents/GitHub/Site/iconesredesocial/linkedin.png";
 }
 
 themeChanger = function () {
