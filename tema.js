@@ -1,7 +1,3 @@
-const docTheme = document.getElementById("theme");
-const lightStyle = "lightstyle.css";
-const darkStyle = "darkstyle.css";
-
 function darkIcon() {
     document.getElementById("me-icon").src = "icons/me-icon.jpeg";
 
@@ -31,12 +27,12 @@ function lightIcon() {
 }
 
 themeChanger = function () {
-    alert(getElementById("me-icon").src)
-    if (docTheme.href == lightStyle) {
-        docTheme.href = darkStyle;
+    alert(document.getElementById("theme").href)
+    if (document.getElementById("theme").href == "lightstyle.css") {
+        document.getElementById("theme").href = "darkstyle.css";
         darkIcon();
     } else {
-        docTheme.href = lightStyle;
+        document.getElementById("theme").href = "lightstyle.css";
         lightIcon();
     }
 };
