@@ -1,7 +1,6 @@
 const docTheme = document.getElementById("theme");
 const lightStyle = "lightstyle.css";
 const darkStyle = "darkstyle.css";
-// Variáveis para salvar o path para os temas lightstyle e darkstyle
 
 function darkIcon() {
     document.getElementById("me-icon").src = "icons/me-icon.jpeg";
@@ -32,7 +31,7 @@ function lightIcon() {
 }
 
 themeChanger = function () {
-    alert(getElementById("github").src)
+    alert(getElementById("me-icon").src)
     if (docTheme.href == lightStyle) {
         docTheme.href = darkStyle;
         darkIcon();
