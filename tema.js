@@ -32,6 +32,7 @@ function lightIcon() {
 }
 
 themeChanger = function () {
+    alert(getElementById("github").src)
     if (docTheme.href == lightStyle) {
         docTheme.href = darkStyle;
         darkIcon();
