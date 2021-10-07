@@ -27,7 +27,6 @@ function lightIcon() {
 }
 
 themeChanger = function () {
-    alert(document.getElementById("theme").href)
     if (document.getElementById("theme").href == "https://dheovani.github.io/Site/lightstyle.css") {
         document.getElementById("theme").href = "https://dheovani.github.io/Site/darkstyle.css";
         darkIcon();
